@@ -1,0 +1,83 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+    </style>
+
+    <style name="BaseTheme.LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/login_activity_background</item>
+    </style>
+
+    <style name="BaseTheme.App">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="AudioActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="ActionBarStyle">
+        <item name="android:textColorPrimary">@color/action_bar_text_color</item>
+        <item name="actionMenuTextColor">@color/action_bar_text_color</item>
+        <item name="android:textColorSecondary">@color/action_bar_text_color</item>
+    </style>
+
+    <style name="ActionModeStyle" parent="Widget.AppCompat.ActionMode">
+        <item name="background">@color/action_mode_action_bar_background</item>
+        <item name="height">56dp</item>
+    </style>
+
+    <style name="TransparentActionBarStyle">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:textColorSecondary">@color/action_bar_text_color</item>
+        <item name="android:actionMenuTextColor">@color/activity_audio_menu_item_text_color</item>
+    </style>
+
+    <style name="ButtonLoginActivity">
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:drawablePadding">24dp</item>
+        <item name="android:height">@dimen/button_login_activity_height</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ButtonLoginActivity.White">
+        <item name="android:background">@color/login_activity_button_white</item>
+        <item name="android:textColor">@color/login_activity_button_white_text</item>
+    </style>
+
+    <style name="ButtonLoginActivity.Blue">
+        <item name="android:background">@color/login_activity_button_blue_grey</item>
+        <item name="android:textColor">@color/login_activity_button_blue_grey_text</item>
+    </style>
+
+    <style name="SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_layerlist</item>
+        <item name="android:thumb">@drawable/seekbar_control</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:maxHeight">8dp</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <style name="PlayerPanelButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="BaseTheme.App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="BaseTheme.App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

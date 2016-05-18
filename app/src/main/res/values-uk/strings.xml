@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">VKPlayer</string>
+
+    <string name="action_cache">Зберегти</string>
+    <string name="action_remove_from_list">Видалити з списку</string>
+
+    <string name="title_activity_list">Список</string>
+    <string name="title_activity_login">Авторизація</string>
+
+    <string name="title_button_login_vk">Увійти через VK</string>
+    <string name="title_button_github">Github/IRA-Team</string>
+
+    <string name="navigation_drawer_open">Відкрити</string>
+    <string name="navigation_drawer_close">Закрити</string>
+    <string name="navigation_drawer_current_playlist">Поточний плейлист</string>
+    <string name="navigation_drawer_my_audio">Мої аудіозаписи</string>
+    <string name="navigation_drawer_recommendation">Рекомендації</string>
+    <string name="navigation_drawer_popular">Популярні</string>
+    <string name="navigation_drawer_downloaded">Збережені</string>
+    <string name="navigation_drawer_settings">Налаштування</string>
+    <string name="navigation_drawer_exit">Змінити профіль</string>
+
+    <string name="title_menu_sort">Сортування</string>
+    <string name="title_menu_search">Пошук</string>
+
+    <string name="error_load">Помилка завантаження</string>
+    <string name="error_no_internet_connection">Відсутнє з\'єднання з інтернетом</string>
+    <string name="error_no_wifi_connection">Відсутнє з\'єднання з Wi-Fi</string>
+    <string name="title_snackbar_action">Повторити</string>
+
+    <string name="notification_previous">Попередня</string>
+    <string name="notification_pause">Пауза</string>
+    <string name="notification_resume">Відновити</string>
+    <string name="notification_next">Наступна</string>
+
+    <string name="notification_sync">Синхронізація</string>
+    <string name="notification_download">Збереження</string>
+    <string name="notification_cancel">Зупинити</string>
+
+    <string name="title_activity_settings">Налаштування</string>
+
+    <string name="pref_sync_enabled">Синхронізація</string>
+    <string name="pref_sync_count">Кількість аудіо</string>
+    <string name="pref_header_sync_title">Синхронізація</string>
+    <string name="pref_sync_time">Час синхронізації</string>
+    <string name="pref_sync_time_default">18:30</string>
+    <string name="pref_sync_button">Синхронізувати</string>
+
+    <string name="empty_list">Список порожній</string>
+    <string name="title_menu_sort_done">Завершити сортування</string>
+    <string name="notification_error_sync_title">Помилка синхронізації</string>
+    <string name="notification_successful_sync">Синхронізацію завершено</string>
+    <string name="notification_successful_download">Збереження завершено</string>
+    <string name="notification_error_download_title">Помилка збереження</string>
+    <string name="notification_audio_count_left">Залишилось:</string>
+    <string name="notification_successful_download_count">Збережено аудіозаписів:</string>
+    <string name="notification_successful_sync_count">Синхронізовано аудіозаписів:</string>
+    <string name="action_add_to_playlist">Додати в поточний плейлист</string>
+    <string name="action_play">Грати</string>
+    <string name="action_delete_from_cache">Видалити з збережених</string>
+    <string name="snackbar_add_to_playlist">Аудіозаписи додані в поточний плейлист</string>
+    <string name="snackbar_cancel">Відмінити</string>
+    <string name="pref_sync_wifi">Синхронізація через Wi-Fi</string>
+    <string name="notification_error_download_message">Виникла помилка під час завантаження</string>
+    <string name="notification_error_sync_message">Виникла помилка під час синхронізації</string>
+    <string name="pref_header_cache_title">Кеш</string>
+    <string name="pref_cache_clear">Очистити кеш</string>
+    <string name="cache_clear_complete">Кеш очищений</string>
+    <string name="clear_cache_dialog_text">Ви впевнені, що хочете видалити всі збережені аудіозаписи?</string>
+    <string name="clear_cache_dialog_title">Будь ласка, підтвердіть</string>
+    <string name="no">Ні</string>
+    <string name="yes">Так</string>
+    <string name="cancel">Відміна</string>
+    <string name="ok">ОК</string>
+    <string name="pref_timer_off_enabled">Таймер</string>
+    <string name="pref_timer_off_title">Таймер відключення</string>
+
+</resources>
